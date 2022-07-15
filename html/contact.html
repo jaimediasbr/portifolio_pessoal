@@ -1,0 +1,45 @@
+  <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Sobre mim</a>                          
+                    <li>
+                        <a href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <header class="center">
+                <div>
+                    <img src="./img/jaime.png"></img>
+                </div>
+                <h1>Entre em contato!</h1>
+            </header>
+            <form class="contact-form" action="jaimesantodedenver@gmail.com" method="POST">
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <input type="text" id="message" name="message" required>
+                </div>               
+                <button type="button" class="btn btn-success">Enviar</button>
+                <input type="hidden" name="_next" value="jaimesantodedenver@gmail.com">
+                <input type="hidden" name="_subject" value="New submission!">
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
